@@ -8,7 +8,7 @@
     width:100%;
     min-height:100vh;
     padding:10px;
-    background:linear-gradient(135deg,rgb(7, 48, 134),rgb(159, 109, 247));
+    background:linear-gradient(135deg,rgb(7, 134, 130),rgb(159, 109, 247));
 }
 .todo{
     width: 100%;
@@ -73,16 +73,12 @@ ul li::before{
     border-radius:50%;
     top:12px;
     left:8px;
-    background-image: url(unchecked.png);
     background-size: cover;
     background-position: center;
 }
 ul li.checked{
     color: black;
     text-decoration: line-through;
-}
-ul li.checked::before{
-    background-image: url(checked.png);
 }
 ul li span{
     position:absolute;
